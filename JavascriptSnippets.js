@@ -60,6 +60,6 @@ window.onload = function() {
 // CLASSLIST ADD //
 //////////////////
 
- the_clone.querySelector("article").classList.add("vegetar");
+ document.querySelector("article").classList.add("vegetar");
 
 
