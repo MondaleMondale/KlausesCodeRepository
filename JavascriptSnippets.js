@@ -1,4 +1,6 @@
-// async clone dataset
+/////////////////////////////////////
+// ASYNC CLONE WAIT DATASET DATA- //
+///////////////////////////////////
 
 async function getList(url_productlist) {
     // hent json
@@ -22,9 +24,9 @@ async function getList(url_productlist) {
 }
 
 
-
-// async load JSON
-
+//////////////////////
+// ASYNC LOAD JSON //
+////////////////////
 
 async function getList(url_productlist) {
     // hent json
@@ -34,15 +36,17 @@ async function getList(url_productlist) {
 
 }
 
-
-// clone appendChild
+////////////////////////////////
+// TEMPLATE CLONE APPENDCHILD//
+//////////////////////////////
 
 let the_clone = document.querySelector("#the_template").content.cloneNode(true);
 the_clone.querySelector("article").dataset.dish_id = produkt.id
 document.querySelector(".modtager").appendChild(the_clone);
 
-
-// load document
+////////////////////////////////////////////
+// LOAD DOCUMENT ONLOAD DOMCONTENTLOADED //
+//////////////////////////////////////////
 
 document.addEventListener("DOMContentLoaded", koerScriptet)
 //The DOMContentLoaded event is fired when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading. A very different event load should be used only to detect a fully-loaded page. It is an incredibly popular mistake to use load where DOMContentLoaded would be much more appropriate, so be cautious.
