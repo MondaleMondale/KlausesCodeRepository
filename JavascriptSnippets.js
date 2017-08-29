@@ -62,4 +62,8 @@ window.onload = function() {
 
  document.querySelector("article").classList.add("vegetar");
 
+/////////////////////
+//QUERYSELECTORALL//
+///////////////////
 
+document.querySelectorAll(".vegetar").forEach(i => {i.style.backgroundColor = "blue"});
