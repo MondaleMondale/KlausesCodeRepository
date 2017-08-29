@@ -55,3 +55,11 @@ window.onload = function() {
     //The load event fires at the end of the document loading process. At this point, all of the objects in the document are in the DOM, and all the images, scripts, links and sub-frames have finished loading.
 
 };
+
+////////////////////
+// CLASSLIST ADD //
+//////////////////
+
+ the_clone.querySelector("article").classList.add("vegetar");
+
+
