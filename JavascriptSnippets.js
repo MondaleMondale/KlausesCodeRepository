@@ -40,3 +40,13 @@ async function getList(url_productlist) {
 let the_clone = document.querySelector("#the_template").content.cloneNode(true);
 the_clone.querySelector("article").dataset.dish_id = produkt.id
 document.querySelector(".modtager").appendChild(the_clone);
+
+
+// load document
+
+document.addEventListener("DOMContentLoaded", koerScriptet)
+
+
+window.onload = function() {
+
+};
