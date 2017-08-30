@@ -51,10 +51,10 @@ document.querySelector(".modtager").appendChild(the_clone);
 document.addEventListener("DOMContentLoaded", koerScriptet)
 //The DOMContentLoaded event is fired when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading. A very different event load should be used only to detect a fully-loaded page. It is an incredibly popular mistake to use load where DOMContentLoaded would be much more appropriate, so be cautious.
 
-window.onload = function() {
-    //The load event fires at the end of the document loading process. At this point, all of the objects in the document are in the DOM, and all the images, scripts, links and sub-frames have finished loading.
+window.addEventListener("load",koerScriptet)
+//The load event fires at the end of the document loading process. At this point, all of the objects in the document are in the DOM, and all the images, scripts, links and sub-frames have finished loading.
 
-};
+
 
 ////////////////////
 // CLASSLIST ADD //
