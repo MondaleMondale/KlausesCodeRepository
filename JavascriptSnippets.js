@@ -10,7 +10,7 @@ async function getList(url_productlist) {
     console.log("ProduktListe", produktListe);
 
     // vis de enkelte personer i html med en template
-    produktListe.forEach(produkt => {
+    produktListe.forEach( function (produkt) {
         let the_clone = document.querySelector("#the_template").content.cloneNode(true);
         the_clone.querySelector("h1").textContent = produkt.navn;
         the_clone.querySelector("img").src = "imgs/small/" + produkt.billede + "-sm.jpg";
@@ -65,5 +65,6 @@ window.addEventListener("load",koerScriptet)
 /////////////////////
 //QUERYSELECTORALL//
 ///////////////////
-
-document.querySelectorAll(".vegetar").forEach(i => {i.style.backgroundColor = "blue"});
+document.querySelectorAll(".vegetar").forEach( function ( i ) {i.style.backgroundColor = "blue"});
+// eller
+document.querySelectorAll(".vegetar").forEach( i => {i.style.backgroundColor = "blue"});
