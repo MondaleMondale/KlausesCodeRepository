@@ -77,7 +77,6 @@ document.querySelectorAll(".vegetar").forEach( i => {i.style.backgroundColor = "
 ///////////
 
 
-
 let et_array_af_objekter = [{id:21,navn:"Frank"},{id:22,navn:"Sigurd"},{id:56,navn:"Alma"}];
 let id_to_find = 22;
 let result = et_array_af_objekter.find(function(element){return  element.id == id_to_find; });
