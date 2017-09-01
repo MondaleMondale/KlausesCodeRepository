@@ -81,7 +81,7 @@ let et_array_af_objekter = [{id:21,navn:"Frank"},{id:22,navn:"Sigurd"},{id:56,na
 let id_to_find = 22;
 let result = et_array_af_objekter.find(function(element){return  element.id == id_to_find; });
 //eller
-//let find_id_56 = et_array_af_objekter.find(element => {return  element.id == id_to_find; });
+//let result = et_array_af_objekter.find(element => {return  element.id == id_to_find; });
 
 console.log("Resultatet er",result); // {id: 22, navn: "Sigurd"}
 
