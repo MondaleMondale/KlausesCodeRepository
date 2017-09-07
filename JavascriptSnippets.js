@@ -96,7 +96,7 @@ let langeOrd = ordene.filter(function(ord){
   return ord.length > 6;
 });
 
-// Det filtreret array langeOrd er ["hujende", "hamster"]
+// Det filtrerede array langeOrd er ["hujende", "hamster"]
 
 
 
