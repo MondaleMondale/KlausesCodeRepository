@@ -28,11 +28,11 @@ async function getList(url_productlist) {
 // ASYNC LOAD JSON //
 ////////////////////
 
-async function getList(url_productlist) {
+async function getList(min_url) {
     // hent json
-    let result = await fetch(url_productlist);
+    let result = await fetch(min_url);
     // put resultatet i et array
-    let produktListe = await result.json();
+    let min_json = await result.json();
 
 }
 
