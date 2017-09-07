@@ -86,8 +86,17 @@ let result = et_array_af_objekter.find(function(element){return  element.id == i
 console.log("Resultatet er",result); // {id: 22, navn: "Sigurd"}
 
 
+///////////////////
+//////FILTER//////
+/////////////////
 
+let ordene = ["hylt", "hujende", "hamster", "bah", "du", "den"];
 
+let langeOrd = ordene.filter(function(ord){
+  return ord.length > 6;
+});
+
+// Det filtreret array langeOrd er ["hujende", "hamster"]
 
 
 
