@@ -32,7 +32,7 @@ async function getList(url_productlist) {
     // hent json
     let result = await fetch(url_productlist);
     // put resultatet i et array
-    var produktListe = await result.json();
+    let produktListe = await result.json();
 
 }
 
